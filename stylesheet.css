@@ -13,10 +13,11 @@ body {
     font-size:19px;
     line-height: 20px;
     vertical-align: middle;
-    background-image: url("http://www.timbers.com/sites/portland/themes/portland/img/logo.png");
+    /*background-image: url("http://www.timbers.com/sites/portland/themes/portland/img/logo.png");*/
     background-repeat: no-repeat;
     background-position: left;
-    padding-left:160px;
+    padding-left:0;
+    position:relative;
 }
 
 #header-img-a {
@@ -77,6 +78,10 @@ body {
     font-size: 1.2em;
     vertical-align: bottom;
     flex: 0 0 auto;
+    position:absolute;
+    left:0;
+    bottom:0;
+    z-index:6;
 }
 
 .pagename a {
@@ -92,9 +97,10 @@ body {
     text-decoration:none;
     vertical-align: bottom;
     border-style: none;
-    letter-spacing: 0.1em;
+    letter-spacing: 1.1em;
     font-weight: normal;
     font-size: 30px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 .pagename a:hover {
