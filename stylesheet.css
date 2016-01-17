@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+}
+
+#header {
+    background-color: #004812;
+    border: 0;
+}
+
+#header-bottom-left {
+    align-items:flex-end;
+    display:flex;
+    font-size:19px;
+    line-height: 20px;
+    vertical-align: middle;
+    background-image: url("http://www.timbers.com/sites/portland/themes/portland/img/logo.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left:160px;
+}
+
+#header-img-a {
+    margin-left: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    z-index: 5;
+    /*overflow: hidden;*/
+    flex: 0 0 auto;
+    background-image:
+        linear-gradient(to right, #004812 0%, rgba(0,0,0,0) 20%),
+        linear-gradient(to right, rgba(0, 0, 0, 0) 80%, #004812 100%),
+        url("timbers_joey.jpg");
+    background-size:cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    width:500px;
+}
+
+#header-img-a {
+    vertical-align: bottom;
+    display: inline-block;
+    height: 150px;
+}
+
+#header-img-a img {
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid #fff;*/
+    /*box-shadow: #1a1a1a 0 0 6px;*/
+    visibility: hidden;
+}
+
+#header-img {
+    max-width: 600px;
+    max-height: 159px;
+    width: auto;
+    height: auto;
+}
+
+.thing .title, .submit-page .roundfield .title {
+    font-size: 16px!important;
+}
+
+.pagename, .pagename.selected {
+    /*width: 205px;*/
+    /*height: 37px;*/
+    vertical-align: bottom;
+}
+
+.pagename {
+    font-weight: bold;
+    /*margin-right: 1ex;*/
+    margin: 0 0 0 20px;
+    font-variant: small-caps;
+    font-size: 1.2em;
+    vertical-align: bottom;
+    flex: 0 0 auto;
+}
+
+.pagename a {
+    color: #FFFFFF!important;
+}
+
+.pagename a, .pagename.selected {
+    /*background: url("//b.thumbs.redditmedia.com/5g2GXNQoof9yDje3ss4uV4G5Y_sy5V2yHcKdkguwQXk.png");*/
+    visibility: hidden;
+    width: 250px;
+    height: 100px;
+    /*text-indent: -9999px;*/
+    text-decoration:none;
+    vertical-align: bottom;
+    border-style: none;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.pagename a:hover {
+    font-style: oblique;
+}
+
+.pagename a:before {
+    content: "/r/timbers";
+    text-indent:0;
+    visibility: visible;
+
+}
